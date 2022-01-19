@@ -10,4 +10,4 @@ export const searchedTodoListSelector = selector<Todo[]>({
     const searchText: string = get(searchTextFormState)
     return searchText ? todoList.filter((t) => t.title.includes(searchText)) : todoList;
   }
-})
+});

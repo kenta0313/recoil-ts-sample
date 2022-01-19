@@ -1,6 +1,6 @@
 import { atom } from "recoil";
 
-export const searchTitleFormState = atom<string>({
+export const TodoTitleFormState = atom<string>({
   key: "todoTitleForm",
   default: '',
 });
